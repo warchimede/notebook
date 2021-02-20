@@ -33,3 +33,9 @@
 
 ## Tools
 - https://github.com/RobotsAndPencils/XcodesApp
+
+## Fragmentation
+- https://www.gosquared.com/global/ios/9/#week
+- https://david-smith.org/iosversionstats/
+- https://developer.apple.com/support/app-store/
+- https://mixpanel.com/trends/#report/ios_14
