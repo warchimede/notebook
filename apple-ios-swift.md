@@ -30,6 +30,7 @@
 - [What the heck is type erasure? 🤔](https://www.youtube.com/watch?v=QK5YVWMrbpo)
 - [How to use the #available attribute in Swift - SwiftLee](https://www.avanderlee.com/swift/available-deprecated-renamed/)
 - [24 Quick Xcode Tips](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+- [Creating a command line tool using the Swift Package Manager](https://www.avanderlee.com/swift/command-line-tool-package-manager/)
 
 ## Tools
 - https://github.com/RobotsAndPencils/XcodesApp
