@@ -10,7 +10,6 @@
 - https://lifehacker.com/how-to-stay-warm-when-the-power-is-out-1846279891
 - https://lifehacker.com/how-to-stay-warm-when-the-power-is-out-1846279891
 
-
 ## Favs
 
 - [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
