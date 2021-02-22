@@ -24,6 +24,7 @@
 - https://twitter.com/dasdom/status/1359073927394451461
 - https://twitter.com/chriseidhof/status/1280433133813456896
 - https://twitter.com/v_pradeilles/status/1269955371080257536
+- https://twitter.com/donnywals/status/1363840790322102275
 
 ### Favs
 - [Xcodes télécharge et installe n'importe quelle version récente de Xcode](https://www.macg.co/logiciels/2021/02/xcodes-telecharge-et-installe-nimporte-quelle-version-recente-de-xcode-119569)
