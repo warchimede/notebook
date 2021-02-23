@@ -6,6 +6,7 @@
 
 - [Useful ssh commands](ssh-commands.md)
 - [Useful git commands](git-commands.md)
+- [The Software Craftsman](20210223-the-software-craftsman.md)
 - [Mettre une refonte sur orbite, plus qu'une affaire de technique](20210218-refonte-sur-orbite-affaire-technique.md)
 - [Persuading the Unpersuadable](20210223-persuading-the-unpersuadable.md)
 
