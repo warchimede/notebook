@@ -1,7 +1,5 @@
 # Reading List
 
-- https://hbr.org/2021/03/persuading-the-unpersuadable
-
 ## To read
 - https://www.pixeldetracking.com/fr/comment-google-se-moque-de-la-cnil-eprivacy
 - https://lifehacker.com/how-to-stay-warm-when-the-power-is-out-1846279891
@@ -18,3 +16,4 @@
 - [How waiting in line can improve your focus](https://mokacoding.com/blog/how-waiting-in-line-can-improve-your-focus/)
 - [Signaling as a Service](https://julian.digital/2020/03/28/signaling-as-a-service/)
 - [Proof of X](https://julian.digital/2020/08/06/proof-of-x/)
+- [Persuading the Unpersuadable](https://hbr.org/2021/03/persuading-the-unpersuadable)
