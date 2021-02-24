@@ -17,3 +17,4 @@
 - [Signaling as a Service](https://julian.digital/2020/03/28/signaling-as-a-service/)
 - [Proof of X](https://julian.digital/2020/08/06/proof-of-x/)
 - [Persuading the Unpersuadable](https://hbr.org/2021/03/persuading-the-unpersuadable)
+- [How can you find time to design?](https://uxdesign.cc/how-can-you-find-time-to-design-cc9a4e3a2b5d)
