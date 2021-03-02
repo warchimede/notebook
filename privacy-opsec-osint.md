@@ -5,12 +5,16 @@
 - protonmail
 - protonvpn
 - nextDNS
+- https://haveibeenpwned.com/
 
 ## OSINT
 
 - searx.be
 - https://namechk.com/
-
+- https://www.namecheckr.com/
+- https://tineye.com/
+- yandex for reverse image search
+- https://archive.is/
 
 ## TO READ
 
