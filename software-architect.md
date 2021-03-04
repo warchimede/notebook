@@ -1,6 +1,6 @@
 # Software Architect
 
-> Les organisations qui conçoivent des systèmes [...] sont contraintes de produire des designs qui sont des copies de la structure de communication de leur organisation. -- Melvin Conway
+> Organizations, who design systems, are constrained to produce designs which are copies of the communication structures of these organizations. -- Melvin Conway's law
 
 ## Notes
 
