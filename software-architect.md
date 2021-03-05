@@ -9,6 +9,7 @@
 - [The Software Craftsman](20210223-the-software-craftsman.md)
 - [Mettre une refonte sur orbite, plus qu'une affaire de technique](20210218-refonte-sur-orbite-affaire-technique.md)
 - [Persuading the Unpersuadable](20210223-persuading-the-unpersuadable.md)
+- [Good iOS Application Architecture](20210305-good-ios-application-architecture.md)
 
 ## Articles
 
@@ -23,3 +24,4 @@
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
 - [The Context And The Logic](https://khanlou.com/2021/02/the-context-and-the-logic/)
 - [The Lava Layer Anti-Pattern](https://mikehadlow.blogspot.com/2014/12/the-lava-layer-anti-pattern.html)
+- [Seniority](http://merowing.info/2017/01/seniority/)

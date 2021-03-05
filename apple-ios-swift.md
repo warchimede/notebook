@@ -5,6 +5,7 @@
 - [SwiftUI / Combine](20210220-swiftui-combine.md)
 - [iOS 14: IDFA and App Tracking Transparency](20210220-idfa-app-tracking-transparency.md)
 - [Which DRM FairPlay Streaming API to use on which version of iOS](20210218-which-fairplay-drm-api.md)
+- [Good iOS Application Architecture](20210305-good-ios-application-architecture.md)
 
 ## Articles
 ### To read
