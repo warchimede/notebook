@@ -11,6 +11,7 @@
 - [Persuading the Unpersuadable](20210223-persuading-the-unpersuadable.md)
 - [Good iOS Application Architecture](20210305-good-ios-application-architecture.md)
 - [Working Backwards](20210309-working-backwards.md)
+- [Seniority](20210309-seniority.md)
 
 ## Articles
 
@@ -25,4 +26,3 @@
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
 - [The Context And The Logic](https://khanlou.com/2021/02/the-context-and-the-logic/)
 - [The Lava Layer Anti-Pattern](https://mikehadlow.blogspot.com/2014/12/the-lava-layer-anti-pattern.html)
-- [Seniority](http://merowing.info/2017/01/seniority/)
