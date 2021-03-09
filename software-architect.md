@@ -10,6 +10,7 @@
 - [Mettre une refonte sur orbite, plus qu'une affaire de technique](20210218-refonte-sur-orbite-affaire-technique.md)
 - [Persuading the Unpersuadable](20210223-persuading-the-unpersuadable.md)
 - [Good iOS Application Architecture](20210305-good-ios-application-architecture.md)
+- [Working Backwards](20210309-working-backwards.md)
 
 ## Articles
 
