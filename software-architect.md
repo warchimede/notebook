@@ -6,12 +6,12 @@
 
 - [Useful ssh commands](ssh-commands.md)
 - [Useful git commands](git-commands.md)
-- [The Software Craftsman](20210223-the-software-craftsman.md)
-- [Mettre une refonte sur orbite, plus qu'une affaire de technique](20210218-refonte-sur-orbite-affaire-technique.md)
-- [Persuading the Unpersuadable](20210223-persuading-the-unpersuadable.md)
-- [Good iOS Application Architecture](20210305-good-ios-application-architecture.md)
-- [Working Backwards](20210309-working-backwards.md)
-- [Seniority](20210309-seniority.md)
+- [The Software Craftsman](2021-02-23-the-software-craftsman.md)
+- [Mettre une refonte sur orbite, plus qu'une affaire de technique](2021-02-18-refonte-sur-orbite-affaire-technique.md)
+- [Persuading the Unpersuadable](2021-02-23-persuading-the-unpersuadable.md)
+- [Good iOS Application Architecture](2021-03-05-good-ios-application-architecture.md)
+- [Working Backwards](2021-03-09-working-backwards.md)
+- [Seniority](2021-03-09-seniority.md)
 
 ## Articles
 
@@ -24,5 +24,5 @@
 ### Favs
 
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
-- [The Context And The Logic](https://khanlou.com/2021/02/the-context-and-the-logic/)
+- [The Context And The Logic](https://khanlou.com/2021-/0-2/the-context-and-the-logic/)
 - [The Lava Layer Anti-Pattern](https://mikehadlow.blogspot.com/2014/12/the-lava-layer-anti-pattern.html)
