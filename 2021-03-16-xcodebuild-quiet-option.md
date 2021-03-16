@@ -8,7 +8,7 @@ It comes really handy when trying to debug your CI pipelines.
 
 Here's an example of use for testing you project:
 
-```no-hightlight
+```no-highlight
 xcodebuild clean test \
    -workspace <workspace> \
    -scheme <scheme> \
