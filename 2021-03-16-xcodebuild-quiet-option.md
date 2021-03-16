@@ -10,11 +10,11 @@ Here's an example of use for testing you project:
 
 ```no-highlight
 xcodebuild clean test \
-   -workspace <workspace> \
-   -scheme <scheme> \
-   -configuration Debug \
-   -destination "<destination>" \
-   -derivedDataPath <output_dir> \
-   -enableCodeCoverage YES \
-   -quiet \
+  -workspace <workspace> \
+  -scheme <scheme> \
+  -configuration Debug \
+  -destination "<destination>" \
+  -derivedDataPath <output_dir> \
+  -enableCodeCoverage YES \
+  -quiet
 ```
