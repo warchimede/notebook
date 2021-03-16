@@ -1,4 +1,4 @@
-# Blog
+# [Blog](https://warchimede.com/)
 
 ## Ideas
 
