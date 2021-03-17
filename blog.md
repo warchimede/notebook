@@ -18,3 +18,4 @@
 
 - https://warchimede.hashnode.dev/
 - https://hybridcattt.com/
+- https://www.jessesquires.com/
