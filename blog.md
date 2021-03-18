@@ -10,6 +10,7 @@
 - [How to convert an existing fat framework to a XCFramework using lipo and xcodebuild](2021-02-18-convert-fat-framework-to-xcframework.md)
 - [How to test remote notifications on iOS simulator](2021-02-18-test-remote-notifications-iOS-simulator.md)
 - [How to know App launched from remote notification](2021-02-18-know-app-launched-from-remote-notification.md)
+- [How to know which shared libraries are used in a binary framework](2021-03-18-know-shared-libraries-used-in-binary-framework.md)
 
 ## Published
 
