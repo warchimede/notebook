@@ -7,6 +7,7 @@
 - [Which DRM FairPlay Streaming API to use on which version of iOS](2021-02-18-which-fairplay-drm-api.md)
 - [Good iOS Application Architecture](2021-03-05-good-ios-application-architecture.md)
 - [`xcodebuild -quiet` option](2021-03-16-xcodebuild-quiet-option.md)
+- [How to know which shared libraries are used in a binary framework](2021-03-18-know-shared-libraries-used-in-binary-framework.md)
 
 ## Articles
 ### To read

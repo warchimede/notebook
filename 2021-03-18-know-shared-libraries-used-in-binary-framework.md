@@ -1,7 +1,6 @@
 # How to know which shared libraries are used in a binary framework
 
-
-```
+```no-highlight
 ITMS-90683: Missing Purpose String in Info.plist - Your app's code references one or more APIs that access sensitive user data. The app's Info.plist file should contain a NSBluetoothAlwaysUsageDescription key with a user-facing purpose string explaining clearly and completely why your app needs the data. Starting Spring 2019, all apps submitted to the App Store that access user data are required to include a purpose string. If you're using external libraries or SDKs, they may reference APIs that require a purpose string. While your app might not use these APIs, a purpose string is still required. You can contact the developer of the library or SDK and request they release a version of their code that doesn't contain the APIs.
 ```
 Aren't you tired of receiving such messages when submitting your app to the App Store, especially
@@ -11,12 +10,19 @@ Well, if you want to contact the developer responsible for this, you have to fin
 
 ## The tool for this quest : `otool` 
 
-`otool` comes with the Xcode toolchain
+`otool` comes with the Xcode toolchain from its command line help :
 
-From its command line help:
 > -L print shared libraries used
 
-Example output of `otool -L MyFramework.framework/MyFramework` :
+it seems exactly what you are looking for.
+
+Let's use it on `3rdPartySDK.framework`'s binary, the usual suspect :
+
+```no-highlight
+otool -L 3rdPartySDK.framework/3rdPartySDK
+```
+
+It gives the following output :
 
 ```no-highlight
 @rpath/3rdPartySDK.framework/3rdPartySDK (compatibility version 1.0.0, current version 1.0.0)
@@ -41,4 +47,16 @@ Example output of `otool -L MyFramework.framework/MyFramework` :
 	/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 1751.108.0)
 ```
 
-Now you know 
+Piping with `grep` for a more precise search :
+
+```no-highlight
+otool -L 3rdPartySDK.framework/3rdPartySDK | grep CoreBluetooth
+```
+
+outputs :
+
+```no-highlight
+/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth (compatibility version 1.0.0, current version 1.0.0)
+```
+
+Well, now you know who to speak to.
