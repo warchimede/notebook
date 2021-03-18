@@ -1,14 +1,25 @@
 # How to know which shared libraries are used in a binary framework
 
-Use `otool -L` on the binary
 
-From the command line help:
+```
+ITMS-90683: Missing Purpose String in Info.plist - Your app's code references one or more APIs that access sensitive user data. The app's Info.plist file should contain a NSBluetoothAlwaysUsageDescription key with a user-facing purpose string explaining clearly and completely why your app needs the data. Starting Spring 2019, all apps submitted to the App Store that access user data are required to include a purpose string. If you're using external libraries or SDKs, they may reference APIs that require a purpose string. While your app might not use these APIs, a purpose string is still required. You can contact the developer of the library or SDK and request they release a version of their code that doesn't contain the APIs.
+```
+Aren't you tired of receiving such messages when submitting your app to the App Store, especially
+when you don't use Bluetooth in your code ?
+
+Well, if you want to contact the developer responsible for this, you have to find which one of your third party dependencies uses `CoreBluetooth.framework`. 🕵🏽‍♂️
+
+## The tool for this quest : `otool` 
+
+`otool` comes with the Xcode toolchain
+
+From its command line help:
 > -L print shared libraries used
 
 Example output of `otool -L MyFramework.framework/MyFramework` :
 
 ```no-highlight
-@rpath/MyFramework.framework/MyFramework (compatibility version 1.0.0, current version 1.0.0)
+@rpath/3rdPartySDK.framework/3rdPartySDK (compatibility version 1.0.0, current version 1.0.0)
 	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 904.4.0)
 	/System/Library/Frameworks/CFNetwork.framework/CFNetwork (compatibility version 1.0.0, current version 1197.0.0)
 	/System/Library/Frameworks/UIKit.framework/UIKit (compatibility version 1.0.0, current version 3987.0.109)
@@ -29,3 +40,5 @@ Example output of `otool -L MyFramework.framework/MyFramework` :
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1292.0.0)
 	/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 1751.108.0)
 ```
+
+Now you know 
