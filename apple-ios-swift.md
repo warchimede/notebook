@@ -8,6 +8,7 @@
 - [Good iOS Application Architecture](2021-03-05-good-ios-application-architecture.md)
 - [`xcodebuild -quiet` option](2021-03-16-xcodebuild-quiet-option.md)
 - [How to know which shared libraries are used in a binary framework](2021-03-18-know-shared-libraries-used-in-binary-framework.md)
+- [How to check which signing certiface is able to code sign](2021-03-25-how-to-check-signing-certificates.md)
 
 ## Articles
 ### To read
