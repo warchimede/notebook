@@ -1,4 +1,4 @@
-# How to check which signing certiface is able to codesign
+# How to check which signing certificate is able to codesign
 
 Sadly, having a distribution certificate in your keychain does not always mean it can codesign.
 
