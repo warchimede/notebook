@@ -40,6 +40,7 @@
 ## Tools
 - https://github.com/RobotsAndPencils/XcodesApp
 - https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file/10335943#10335943
+- [Frida: Dynamic instrumentation toolkit](https://frida.re/)
 
 ## Fragmentation
 - https://www.gosquared.com/global/ios/9/#week
