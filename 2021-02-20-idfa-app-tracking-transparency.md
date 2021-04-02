@@ -19,3 +19,13 @@
 [Is Apple Banning Free Analytics SDKs? - Steamclock Software](https://steamclock.com/blog/2021/02/apple-tracking-analytics-sdks/)
 
 [Apple Rejecting Apps With Fingerprinting Enabled As iOS 14 Privacy Enforcement Starts](https://www.forbes.com/sites/johnkoetsier/2021/04/01/apple-rejecting-apps-with-fingerprinting-enabled-as-ios-14-privacy-enforcement-starts/?sh=5db430063d19)
+
+https://twitter.com/eric_seufert/status/1377596078179123202?s=21
+
+From [Apple](https://developer.apple.com/app-store/user-privacy-and-data-use/):
+> **Can I use SKAdNetwork in conjunction with fingerprinting?**
+>No. Per the Apple Developer Program License Agreement, you may not derive data from a device for the purpose of uniquely identifying it. Examples of user or device data include, but are not limited to: properties of a user’s web browser and its configuration, the user’s device and its configuration, the user’s location, or the user’s network connection. Apps referencing SDKs, including but not limited to Ad Networks, Attribution services, and Analytics, that are found to be engaging in this practice may be rejected from the App Store.
+
+[Fingerprinting with iOS 14: Reality or delusion?](https://mobiledevmemo.com/fingerprinting-with-att-reality-or-delusion/)
+
+[Dear App Developers: fingerprinting is not a viable workaround to ATT](https://mobiledevmemo.com/dear-app-developers-fingerprinting-is-not-a-viable-workaround-to-att/)
