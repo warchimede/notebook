@@ -17,3 +17,5 @@
 [Tracking et Attribution sur iOS 14 : comment se préparer aux changements - Publicis Sapient Engineering - Engineering Done Right](https://blog.engineering.publicissapient.fr/2020/12/03/tracking-et-attribution-sur-ios-14-comment-se-preparer-aux-changements/)
 
 [Is Apple Banning Free Analytics SDKs? - Steamclock Software](https://steamclock.com/blog/2021/02/apple-tracking-analytics-sdks/)
+
+[Apple Rejecting Apps With Fingerprinting Enabled As iOS 14 Privacy Enforcement Starts](https://www.forbes.com/sites/johnkoetsier/2021/04/01/apple-rejecting-apps-with-fingerprinting-enabled-as-ios-14-privacy-enforcement-starts/?sh=5db430063d19)
