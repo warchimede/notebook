@@ -19,3 +19,4 @@
 - [Persuading the Unpersuadable](https://hbr.org/2021/03/persuading-the-unpersuadable)
 - [How can you find time to design?](https://uxdesign.cc/how-can-you-find-time-to-design-cc9a4e3a2b5d)
 - [The Part Time Creator Manifesto](https://www.swyx.io/part-time-creator-manifesto)
+- [Learn in Public](https://www.swyx.io/learn-in-public/)
