@@ -1,6 +1,7 @@
 # Reading List
 
 ## To read
+
 - https://www.pixeldetracking.com/fr/comment-google-se-moque-de-la-cnil-eprivacy
 - https://lifehacker.com/how-to-stay-warm-when-the-power-is-out-1846279891
 - https://www.huffpost.com/entry/middle-high-school-bully-depression_n_602c0800c5b65259c4e52240
@@ -20,3 +21,4 @@
 - [How can you find time to design?](https://uxdesign.cc/how-can-you-find-time-to-design-cc9a4e3a2b5d)
 - [The Part Time Creator Manifesto](https://www.swyx.io/part-time-creator-manifesto)
 - [Learn in Public](https://www.swyx.io/learn-in-public/)
+- [How to Create Luck](https://www.swyx.io/create_luck/)
