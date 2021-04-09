@@ -26,3 +26,4 @@
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
 - [The Context And The Logic](https://khanlou.com/2021-/0-2/the-context-and-the-logic/)
 - [The Lava Layer Anti-Pattern](https://mikehadlow.blogspot.com/2014/12/the-lava-layer-anti-pattern.html)
+- [Karma - Git commit msg](https://karma-runner.github.io/3.0/dev/git-commit-msg.html)
