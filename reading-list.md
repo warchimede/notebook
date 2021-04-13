@@ -22,3 +22,4 @@
 - [The Part Time Creator Manifesto](https://www.swyx.io/part-time-creator-manifesto)
 - [Learn in Public](https://www.swyx.io/learn-in-public/)
 - [How to Create Luck](https://www.swyx.io/create_luck/)
+- [95%-ile isn't that good](https://danluu.com/p95-skill/)
