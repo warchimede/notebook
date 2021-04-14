@@ -12,3 +12,4 @@
 - [95%-ile isn't that good](https://danluu.com/p95-skill/)
 - [How to Maximize Serendipity](https://perell.com/essay/serendipity/)
 - [How I Built a Learning Machine](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9)
+- [How I am so Productive](https://kentcdodds.com/blog/how-i-am-so-productive)
