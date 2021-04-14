@@ -11,3 +11,4 @@
 - [How to Create Luck](https://www.swyx.io/create_luck/)
 - [95%-ile isn't that good](https://danluu.com/p95-skill/)
 - [How to Maximize Serendipity](https://perell.com/essay/serendipity/)
+- [How I Built a Learning Machine](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9)
