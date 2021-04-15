@@ -42,6 +42,7 @@
 - https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file/10335943#10335943
 - [Frida: Dynamic instrumentation toolkit](https://frida.re/)
 - [Rocketsim](https://www.rocketsim.app/)
+- [Ducky](https://apps.apple.com/fr/app/ducky-model-editor/id1525505933)
 
 ## Fragmentation
 - https://www.gosquared.com/global/ios/9/#week
