@@ -36,6 +36,7 @@
 - [How to use the #available attribute in Swift - SwiftLee](https://www.avanderlee.com/swift/available-deprecated-renamed/)
 - [24 Quick Xcode Tips](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 - [Creating a command line tool using the Swift Package Manager](https://www.avanderlee.com/swift/command-line-tool-package-manager/)
+- [Ultimate guide to iPhone resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
 ## Tools
 - https://github.com/RobotsAndPencils/XcodesApp
@@ -43,6 +44,7 @@
 - [Frida: Dynamic instrumentation toolkit](https://frida.re/)
 - [Rocketsim](https://www.rocketsim.app/)
 - [Ducky](https://apps.apple.com/fr/app/ducky-model-editor/id1525505933)
+- [PaintCode](https://www.paintcodeapp.com/)
 
 ## Fragmentation
 - https://www.gosquared.com/global/ios/9/#week
