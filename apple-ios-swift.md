@@ -37,6 +37,7 @@
 - [24 Quick Xcode Tips](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 - [Creating a command line tool using the Swift Package Manager](https://www.avanderlee.com/swift/command-line-tool-package-manager/)
 - [Ultimate guide to iPhone resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+- [iOS Ref](https://iosref.com/)
 
 ## Tools
 - https://github.com/RobotsAndPencils/XcodesApp
