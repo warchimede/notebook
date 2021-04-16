@@ -19,7 +19,6 @@
 
 - https://www.youtube.com/watch?v=3YztF__CL0g
 - https://www.youtube.com/watch?v=NLWcUToQgBY
-- https://mobilenativefoundation.org/
 
 ### Favs
 

@@ -52,3 +52,7 @@
 - https://david-smith.org/iosversionstats/
 - https://developer.apple.com/support/app-store/
 - https://mixpanel.com/trends/#report/ios_14
+
+## Orgs
+
+- [Mobile Native Foundation](https://mobilenativefoundation.org/)
