@@ -14,3 +14,4 @@
 - [How I Built a Learning Machine](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9)
 - [How I am so Productive](https://kentcdodds.com/blog/how-i-am-so-productive)
 - [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
+- [A World Without Slack](https://mokacoding.com/blog/a-world-without-slack/)
