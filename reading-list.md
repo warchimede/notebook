@@ -15,3 +15,4 @@
 - [How I am so Productive](https://kentcdodds.com/blog/how-i-am-so-productive)
 - [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
 - [A World Without Slack](https://mokacoding.com/blog/a-world-without-slack/)
+- [Building a digital garden](https://tomcritchlow.com/2019/02/17/building-digital-garden/)
