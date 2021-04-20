@@ -28,3 +28,4 @@ https://datajournalism.com/read/handbook/verification-3
 - https://www.protocol.com/china/i-built-bytedance-censorship-machine
 - https://www.eff.org/deeplinks/2021/03/google-testing-its-controversial-new-ad-targeting-tech-millions-browsers-heres
 - https://www.engadget.com/facebook-533-million-user-personal-data-leak-180156777.html
+- https://www.pixeldetracking.com/fr/apple-protege-surveillance-publicitaire

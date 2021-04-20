@@ -29,3 +29,5 @@ From [Apple](https://developer.apple.com/app-store/user-privacy-and-data-use/):
 [Fingerprinting with iOS 14: Reality or delusion?](https://mobiledevmemo.com/fingerprinting-with-att-reality-or-delusion/)
 
 [Dear App Developers: fingerprinting is not a viable workaround to ATT](https://mobiledevmemo.com/dear-app-developers-fingerprinting-is-not-a-viable-workaround-to-att/)
+
+[Apple vous protège-t-il vraiment de la surveillance publicitaire ?](https://www.pixeldetracking.com/fr/apple-protege-surveillance-publicitaire)
