@@ -1,5 +1,6 @@
 # Reading List Favs ⭐️
 
+- [Marginal Gains](https://jamesclear.com/marginal-gains)
 - [What Every Successful Person Knows, But Never Says](https://jamesclear.com/ira-glass-failure)
 - [Building a digital garden](https://tomcritchlow.com/2019/02/17/building-digital-garden/)
 - [A World Without Slack](https://mokacoding.com/blog/a-world-without-slack/)
