@@ -31,4 +31,7 @@
 
 ### Tools
 
-- [hyperdeck](https://hyperdeck.io/)
+- [Hyperdeck](https://hyperdeck.io/)
+- [Carbon](https://github.com/carbon-app/carbon)
+- [Postman](https://www.postman.com/)
+- [Charles proxy](https://www.charlesproxy.com/)
