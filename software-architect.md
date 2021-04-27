@@ -4,6 +4,7 @@
 
 ## Notes
 
+- [Kent Beck's Four Rules of Simple Design](2021-04-27-kent-beck-four-design-rules.md)
 - [Useful ssh commands](ssh-commands.md)
 - [Useful git commands](git-commands.md)
 - [The Software Craftsman](2021-02-23-the-software-craftsman.md)
