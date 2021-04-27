@@ -1,5 +1,6 @@
 # Reading List Favs ⭐️
 
+- [Five Signs of a Highly Intelligent Person](https://medium.com/mind-cafe/five-signs-of-a-highly-intelligent-person-915cfe16bd1a)
 - [Marginal Gains](https://jamesclear.com/marginal-gains)
 - [What Every Successful Person Knows, But Never Says](https://jamesclear.com/ira-glass-failure)
 - [Building a digital garden](https://tomcritchlow.com/2019/02/17/building-digital-garden/)
