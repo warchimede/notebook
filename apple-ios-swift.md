@@ -42,6 +42,7 @@
 - [Swift by Sundell - Codable](https://swiftbysundell.com/basics/codable/)
 - [Swift by Sundell - Annotating properties with default decoding values](https://swiftbysundell.com/tips/default-decoding-values/)
 - [Swift by Sundell - Customizing Codable types in Swift](https://swiftbysundell.com/articles/customizing-codable-types-in-swift/)
+- [objc.io - Swift Tip: Codable Enums](https://www.objc.io/blog/2018/01/23/codable-enums/)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
