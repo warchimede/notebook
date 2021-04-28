@@ -40,6 +40,7 @@
 - [iOS Ref](https://iosref.com/)
 - [What's new in Swift 5.1](https://www.hackingwithswift.com/articles/182/whats-new-in-swift-5-1)
 - [Swift by Sundell - Codable](https://swiftbysundell.com/basics/codable/)
+- [Swift by Sundell - Annotating properties with default decoding values](https://swiftbysundell.com/tips/default-decoding-values/)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
