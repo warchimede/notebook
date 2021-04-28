@@ -39,6 +39,7 @@
 - [Ultimate guide to iPhone resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 - [iOS Ref](https://iosref.com/)
 - [What's new in Swift 5.1](https://www.hackingwithswift.com/articles/182/whats-new-in-swift-5-1)
+- [Swift by Sundell - Codable](https://swiftbysundell.com/basics/codable/)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
