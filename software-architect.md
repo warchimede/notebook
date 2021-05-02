@@ -3,7 +3,6 @@
 > Organizations, who design systems, are constrained to produce designs which are copies of the communication structures of these organizations. -- Melvin Conway's law
 
 ## Notes
-
 - [Kent Beck's Four Rules of Simple Design](2021-04-27-kent-beck-four-design-rules.md)
 - [Useful ssh commands](ssh-commands.md)
 - [Useful git commands](git-commands.md)
@@ -14,16 +13,10 @@
 - [Working Backwards](2021-03-09-working-backwards.md)
 - [Seniority](2021-03-09-seniority.md)
 - [Ultimate Productivity](2018-09-25-ultimate-productivity.md)
+- [Don’t Give Up on TDD Before Reaching Your Breakthrough](2020-10-3-do-not-give-up-on-tdd-before-reaching-your-breakthrough.md)
+- [The Path to Becoming a Software Architect](2019-09-20-the-path-to-becoming-a-software-architect.md)
 
-## Articles
-
-### To read
-
-- https://www.youtube.com/watch?v=3YztF__CL0g
-- https://www.youtube.com/watch?v=NLWcUToQgBY
-
-### Favs
-
+## Favs articles
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
 - [The Context And The Logic](https://khanlou.com/2021-/0-2/the-context-and-the-logic/)
 - [The Lava Layer Anti-Pattern](https://mikehadlow.blogspot.com/2014/12/the-lava-layer-anti-pattern.html)
@@ -31,8 +24,7 @@
 - [Three Virtues](http://threevirtues.com/)
 - [Merowing - How do I work?](http://merowing.info/2014/10/how-do-i-work/)
 
-### Tools
-
+## Tools
 - [Hyperdeck](https://hyperdeck.io/)
 - [Carbon](https://github.com/carbon-app/carbon)
 - [Postman](https://www.postman.com/)

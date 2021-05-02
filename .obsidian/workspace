@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9dbd855e12acb773",
+        "id": "1f11b59887fdd2d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2018-09-25-ultimate-productivity.md",
+            "file": "2019-09-20-the-path-to-becoming-a-software-architect.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2018-09-25-ultimate-productivity.md",
+                "file": "2019-09-20-the-path-to-becoming-a-software-architect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 547,
     "collapsed": true
   },
-  "active": "9dbd855e12acb773",
+  "active": "1f11b59887fdd2d4",
   "lastOpenFiles": [
-    "2018-09-25-ultimate-productivity.md",
+    "2019-09-20-the-path-to-becoming-a-software-architect.md",
     "software-architect.md",
-    "reading-list.md",
-    "2021-02-23-the-software-craftsman.md",
-    "2021-03-09-seniority.md",
-    "blog.md",
-    "2021-02-18-which-fairplay-drm-api.md",
-    "2021-02-18-ci-open-terminal-script.md",
+    "2020-10-3-do-not-give-up-on-tdd-before-reaching-your-breakthrough.md",
+    "2020-12-02-how-to-improve-app-launch-startup-time.md",
     "apple-ios-swift.md",
-    "2021-03-25-how-to-check-signing-certificates.md"
+    "2020-10-15-how-to-improve-build-time.md",
+    "2021-02-18-convert-fat-framework-to-xcframework.md",
+    "reading-list.md",
+    "blog.md",
+    "2021-02-18-pmd-cpd-xcode.md"
   ]
 }
