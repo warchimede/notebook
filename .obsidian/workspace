@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1f11b59887fdd2d4",
+        "id": "2d5b4160ad26ef72",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,7 +86,7 @@
     "width": 547,
     "collapsed": true
   },
-  "active": "1f11b59887fdd2d4",
+  "active": "2d5b4160ad26ef72",
   "lastOpenFiles": [
     "2019-09-20-the-path-to-becoming-a-software-architect.md",
     "software-architect.md",
