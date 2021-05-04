@@ -103,214 +103,103 @@ The benefits:
 - Has a broad technological horizon
 - Owns several domains
 
-\--> Domain architect
+--> Domain architect
 
-  
+### T-Shaped skills of an architect
+0. I-Shape: Developer -> 1 platform, 1 domain
+1.  t-Shape: Lead Developer -> 1+ platform, 2+ domains
+2. T-Shape: Architect -> 1+ platform, 2+ domains, Architect Theory and Practice
+3. TT-Shape: Senior Architect -> 2+ platforms, 3+ domains, Enterprise Architecture Theory
+4. m-Shape: CTO, 3+ platforms, 4+ domains, Wide Enterprise Architecture Practice
 
-  
+« The goal of the architect’s career development is the formation of the ‘m’ — multi platform & multi domain specialist. »
 
-  
-
-« The goal of the architect’s career development is the formation of the ‘m’ — multiplatform & multi domain specialist. »
-
-  
-
-  
-
-Quality attributes / non-functional requirements in Software Architecture
-
-  
-
+## Quality attributes / non-functional requirements in Software Architecture
 - Performance
-
 - Interoperability
-
 - Usability
-
 - Reliability
-
 - Availability
-
 - Security
-
 - Maintainability
-
 - Modifiability
-
 - Testability
-
 - Scalability
-
 - Reusability
-
 - Supportability
 
-  
-
-Documentation in Software Architecture
-
-  
-
-Goals
-
+## Documentation in Software Architecture
+### Goals
 - Knowledge sharing
-
 - Communication
-
 - Analyses
 
-  
-
 Formula whether the documentation is worth the effort:
-
-  
-
-(Cx — Cy) > Cdiff
-
+```
+(Cx -Cy) > Cdiff
+```
 where
-
+```
 Cx = The cost of the project without documentation,
-
 Cy = The cost of the project with the documentation,
-
 Cdiff = The cost of maintaining documentation.
+```
 
-  
-
-Types of diagrams
-
-  
-
+### Types of diagrams
 - Informal: the most common but needs detailed description for understanding
-
 - Semiformal: UML, C4, architectural view model
-
 - Formal: architecture analysis design language
 
-  
-
-Tips for writing documentation
-
-  
-
+### Tips for writing documentation
 - Avoid repetition
-
 - Recognize for whom you are writing
-
 - Avoid ambiguity
-
 - Maintain relevance
-
 - Review documentation
 
-  
+## Books in Software Architecture
+- Software Architecture in Practice (3rd Edition) (SEI Series in Software Engineering) by Len Bass, Paul Clements, Rick Kazman
+- Domain-Driven Design: Tackling Complexity in the Heart of Software, by Eric Evans
+- Stakeholder Theory: The State of the Art, by R. Edward Freeman, Jeffrey S. Harrison, Andrew C. Wicks, Bidhan L. Parmar, Simone de Colle
+- Software Estimation: Demystifying the Black Art, by Steve McConnell
 
-Books in Software Architecture
-
-  
-
-Software Architecture in Practice (3rd Edition) (SEI Series in Software Engineering)
-
-by Len Bass, Paul Clements, Rick Kazman
-
-  
-
-Domain-Driven Design: Tackling Complexity in the Heart of Software
-
-By Eric Evans
-
-  
-
-Stakeholder Theory: The State of the Art
-
-by R. Edward Freeman, Jeffrey S. Harrison, Andrew C. Wicks, Bidhan L. Parmar, Simone de Colle
-
-  
-
-Software Estimation: Demystifying the Black Art
-
-by Steve McConnell
-
-  
-
-System Design Cheat Sheet
-
-  
-
-1\. Understand Problem and Scope
-
+## System Design Cheat Sheet
+### 1. Understand Problem and Scope
 - Recognize stakeholders and prioritize them. Create a RACI matrix
-
 - Understand business drivers of the project
-
 - Recognize end-users of the project and understand how they use that system
-
 - Check functional requirements
-
 - Define external dependencies
-
 - Suggest additional features
-
 - Remove items that interviewer considers out of scope
 
-  
-
-2\. Think about constraints and non-functional requirements
-
+### 2. Think about constraints and non-functional requirements
 - (use PASS ME if you do not remember all of NFRs)
-
 - Recognize the number of users
-
-- Estimate users growth rate (for the next year/next five years)
-
+- Estimate users growth rate (for the next year / next five years)
 - Define average response time
-
-- Understand database size (current / for the next year/ for the next five years)
-
-- Understand storage size (current / for the next year/ for the next five years)
-
+- Understand database size (current / for the next year / for the next five years)
+- Understand storage size (current / for the next year / for the next five years)
 - Recognize security needs
-
 - Define acceptable downtime of the system
-
-- Recognize the number of requests (per month/per second)
-
+- Recognize the number of requests (per month / per second)
 - Estimate reads vs. writes operations percentage
-
 - Define time to market
-
 - Check customer related NFR: legacy/proprietary soft, etc
 
-  
-
-3\. Detect Architecture Significant Requirements
-
+### 3. Detect Architecture Significant Requirements
 - Mix between FRs and NFRs to detect ASRs
 
-  
-
-4\. Abstract Design
-
+### 4. Abstract Design
 - Choose which architectural views to define based on the stakeholders’ matrix. Use common C4/4+1/etc otherwise
-
 - Choose Architecture Style (Monolith, SOA — microservices, layered architecture, etc.)
-
 - Choose between cloud solution or on-premise servers
-
 - Consider authentication/authorization and privacy
-
 - Suggest security rules and protocols
-
 - Define infrastructure: load balancing, messaging
-
 - Make a rough overview of any critical algorithm that drives the service
-
 - Consider bottlenecks and determine solutions
-
 - Choose storage type (SQL or NoSQL)
-
 - Understand what data should be cached and how to improve performance/security/availability with caching
-
 - Choose monitoring system and logging. Analytics and automatically reboot the system in case of exceptions
-
 - Define separation between public and restricted areas
