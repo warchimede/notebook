@@ -1,5 +1,8 @@
 # Reading List Favs ⭐️
 
+- [How to Stop Sucking and Be Awesome Instead](https://blog.codinghorror.com/how-to-stop-sucking-and-be-awesome-instead/)
+- [Intentional Career Building](https://kentcdodds.com/blog/intentional-career-building/)
+- [The Disciplined Pursuit of Less](https://hbr.org/2012/08/the-disciplined-pursuit-of-less)
 - [Five Signs of a Highly Intelligent Person](https://medium.com/mind-cafe/five-signs-of-a-highly-intelligent-person-915cfe16bd1a)
 - [Marginal Gains](https://jamesclear.com/marginal-gains)
 - [What Every Successful Person Knows, But Never Says](https://jamesclear.com/ira-glass-failure)

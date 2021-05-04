@@ -3,6 +3,7 @@
 > Organizations, who design systems, are constrained to produce designs which are copies of the communication structures of these organizations. -- Melvin Conway's law
 
 ## Notes
+- [The Path to Becoming a Software Architect](2019-09-20-the-path-to-becoming-a-software-architect.md)
 - [Kent Beck's Four Rules of Simple Design](2021-04-27-kent-beck-four-design-rules.md)
 - [Useful ssh commands](ssh-commands.md)
 - [Useful git commands](git-commands.md)
@@ -14,7 +15,6 @@
 - [Seniority](2021-03-09-seniority.md)
 - [Ultimate Productivity](2018-09-25-ultimate-productivity.md)
 - [Don’t Give Up on TDD Before Reaching Your Breakthrough](2020-10-3-do-not-give-up-on-tdd-before-reaching-your-breakthrough.md)
-- [The Path to Becoming a Software Architect](2019-09-20-the-path-to-becoming-a-software-architect.md)
 
 ## Favs articles
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
@@ -23,6 +23,7 @@
 - [Karma - Git commit msg](https://karma-runner.github.io/3.0/dev/git-commit-msg.html)
 - [Three Virtues](http://threevirtues.com/)
 - [Merowing - How do I work?](http://merowing.info/2014/10/how-do-i-work/)
+- [What I’m talking about when I talk about TDD](https://medium.com/@ramtop/what-im-talking-about-when-i-talk-about-tdd-546a383468be)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
