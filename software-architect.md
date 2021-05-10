@@ -15,6 +15,7 @@
 - [Seniority](2021-03-09-seniority.md)
 - [Ultimate Productivity](2018-09-25-ultimate-productivity.md)
 - [Don’t Give Up on TDD Before Reaching Your Breakthrough](2020-10-3-do-not-give-up-on-tdd-before-reaching-your-breakthrough.md)
+- [Newton's Laws of Productivity](2021-05-10-newton-laws-of-productivity.md)
 
 ## Favs articles
 - [From Designer to Software Engineer to Solutions Architect: my journey](https://dev.to/this-is-learning/from-designer-to-software-engineer-to-solutions-architect-my-journey-2p5b)
@@ -30,3 +31,4 @@
 - [Carbon](https://github.com/carbon-app/carbon)
 - [Postman](https://www.postman.com/)
 - [Charles proxy](https://www.charlesproxy.com/)
+- [JetBrains Mono typeface](https://www.jetbrains.com/lp/mono/)

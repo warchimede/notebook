@@ -32,3 +32,4 @@ https://datajournalism.com/read/handbook/verification-3
 - https://www.pixeldetracking.com/fr/apple-protege-surveillance-publicitaire
 - https://protonmail.com/blog/microsoft-exchange-hack-prevention/
 - https://www.laquadrature.net/2021/03/19/securite-globale-le-senat-dit-oui-a-la-surveillance-de-masse/
+- https://signal.org/blog/the-instagram-ads-you-will-never-see/

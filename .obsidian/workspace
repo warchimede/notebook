@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2019-09-20-the-path-to-becoming-a-software-architect.md",
-            "mode": "preview"
+            "file": "2021-05-10-newton-laws-of-productivity.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2019-09-20-the-path-to-becoming-a-software-architect.md",
+                "file": "2021-05-10-newton-laws-of-productivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "2d5b4160ad26ef72",
   "lastOpenFiles": [
-    "2019-09-20-the-path-to-becoming-a-software-architect.md",
+    "2021-05-10-newton-laws-of-productivity.md",
     "software-architect.md",
     "reading-list.md",
-    "privacy-opsec-osint.md",
+    "2018-09-25-ultimate-productivity.md",
     "apple-ios-swift.md",
+    "privacy-opsec-osint.md",
+    "2019-09-20-the-path-to-becoming-a-software-architect.md",
     "2020-10-3-do-not-give-up-on-tdd-before-reaching-your-breakthrough.md",
     "2020-12-02-how-to-improve-app-launch-startup-time.md",
-    "2020-10-15-how-to-improve-build-time.md",
-    "2021-02-18-convert-fat-framework-to-xcframework.md",
-    "blog.md"
+    "2020-10-15-how-to-improve-build-time.md"
   ]
 }

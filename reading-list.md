@@ -1,5 +1,5 @@
 # Reading List Favs ⭐️
-
+- [The Physics of Productivity: Newtons's Laws of Getting Stuff Done](https://jamesclear.com/physics-productivity)
 - [How to Stop Sucking and Be Awesome Instead](https://blog.codinghorror.com/how-to-stop-sucking-and-be-awesome-instead/)
 - [Intentional Career Building](https://kentcdodds.com/blog/intentional-career-building/)
 - [The Disciplined Pursuit of Less](https://hbr.org/2012/08/the-disciplined-pursuit-of-less)
