@@ -25,6 +25,7 @@
 - [Three Virtues](http://threevirtues.com/)
 - [Merowing - How do I work?](http://merowing.info/2014/10/how-do-i-work/)
 - [What I’m talking about when I talk about TDD](https://medium.com/@ramtop/what-im-talking-about-when-i-talk-about-tdd-546a383468be)
+- [What it takes to be a great Lead Engineer](https://dev.to/dainemawer/what-it-takes-to-be-a-great-lead-engineer-1jhl)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
