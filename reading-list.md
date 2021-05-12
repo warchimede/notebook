@@ -1,4 +1,7 @@
 # Reading List Favs ⭐️
+- [How the World Around You Shapes Your Thoughts and Actions](https://jamesclear.com/jonas-salk)
+- [The Power of Less: I Removed Every Inessential Thing From My Website and Here’s What Happened](https://jamesclear.com/eliminate)
+- [How to Focus and Concentrate Better](https://jamesclear.com/how-to-focus)
 - [The Physics of Productivity: Newtons's Laws of Getting Stuff Done](https://jamesclear.com/physics-productivity)
 - [How to Stop Sucking and Be Awesome Instead](https://blog.codinghorror.com/how-to-stop-sucking-and-be-awesome-instead/)
 - [Intentional Career Building](https://kentcdodds.com/blog/intentional-career-building/)

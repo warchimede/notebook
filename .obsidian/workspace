@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "software-architect.md",
+            "file": "reading-list.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software-architect.md",
+                "file": "reading-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "2d5b4160ad26ef72",
   "lastOpenFiles": [
+    "reading-list.md",
     "software-architect.md",
     "apple-ios-swift.md",
     "2021-02-20-idfa-app-tracking-transparency.md",
@@ -96,7 +97,6 @@
     "README.md",
     "2019-09-20-the-path-to-becoming-a-software-architect.md",
     "2021-05-10-newton-laws-of-productivity.md",
-    "reading-list.md",
     "2018-09-25-ultimate-productivity.md"
   ]
 }
