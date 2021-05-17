@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "reading-list.md",
-            "mode": "source"
+            "file": "apple-ios-swift.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading-list.md",
+                "file": "apple-ios-swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "2d5b4160ad26ef72",
   "lastOpenFiles": [
-    "reading-list.md",
-    "software-architect.md",
     "apple-ios-swift.md",
+    "software-architect.md",
+    "reading-list.md",
     "2021-02-20-idfa-app-tracking-transparency.md",
     "2020-12-02-how-to-improve-app-launch-startup-time.md",
     "2020-10-15-how-to-improve-build-time.md",

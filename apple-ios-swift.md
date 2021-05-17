@@ -37,6 +37,7 @@
 - [PaintCode](https://www.paintcodeapp.com/)
 - [Sourcekit-lsp VSCode extension](https://github.com/apple/sourcekit-lsp)
 - [ControlRoom](https://github.com/twostraws/ControlRoom)
+- [A complete guide for Apple displays](https://www.screensizes.app/)
 
 ## Fragmentation
 - https://www.gosquared.com/global/ios/9/#week
