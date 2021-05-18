@@ -23,6 +23,7 @@
 https://twitter.com/BanPangar/status/1357805362469097472
 https://www.zdnet.com/article/this-chart-shows-the-connections-between-cybercrime-groups/
 https://datajournalism.com/read/handbook/verification-3
+https://www.tripwire.com/state-of-security/security-awareness/opsec-everyone-people-something-hide-part-3/
 
 ## Favs
 

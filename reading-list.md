@@ -1,4 +1,5 @@
 # Reading List Favs ⭐️
+- [What's Going on with the Stock Market](https://economixcomix.com/home/stockmarket/)
 - [How the World Around You Shapes Your Thoughts and Actions](https://jamesclear.com/jonas-salk)
 - [The Power of Less: I Removed Every Inessential Thing From My Website and Here’s What Happened](https://jamesclear.com/eliminate)
 - [How to Focus and Concentrate Better](https://jamesclear.com/how-to-focus)

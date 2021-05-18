@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2d5b4160ad26ef72",
+        "id": "78a3314824604ec1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "apple-ios-swift.md",
-            "mode": "preview"
+            "file": "software-architect.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apple-ios-swift.md",
+                "file": "software-architect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 547,
     "collapsed": true
   },
-  "active": "2d5b4160ad26ef72",
+  "active": "78a3314824604ec1",
   "lastOpenFiles": [
-    "apple-ios-swift.md",
     "software-architect.md",
+    "apple-ios-swift.md",
+    "privacy-opsec-osint.md",
     "reading-list.md",
     "2021-02-20-idfa-app-tracking-transparency.md",
     "2020-12-02-how-to-improve-app-launch-startup-time.md",
     "2020-10-15-how-to-improve-build-time.md",
     "README.md",
     "2019-09-20-the-path-to-becoming-a-software-architect.md",
-    "2021-05-10-newton-laws-of-productivity.md",
-    "2018-09-25-ultimate-productivity.md"
+    "2021-05-10-newton-laws-of-productivity.md"
   ]
 }
