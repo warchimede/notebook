@@ -7,6 +7,7 @@
 - nextDNS
 - https://haveibeenpwned.com/
 - https://objective-see.com/index.html
+- https://foundation.mozilla.org/en/privacynotincluded/
 
 ## OSINT
 
