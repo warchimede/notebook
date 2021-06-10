@@ -35,3 +35,4 @@ https://www.tripwire.com/state-of-security/security-awareness/opsec-everyone-peo
 - https://protonmail.com/blog/microsoft-exchange-hack-prevention/
 - https://www.laquadrature.net/2021/03/19/securite-globale-le-senat-dit-oui-a-la-surveillance-de-masse/
 - https://signal.org/blog/the-instagram-ads-you-will-never-see/
+- https://www.pixeldetracking.com/fr/comment-les-editeurs-se-moquent-de-la-cnil
