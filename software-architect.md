@@ -28,6 +28,7 @@
 - [What it takes to be a great Lead Engineer](https://dev.to/dainemawer/what-it-takes-to-be-a-great-lead-engineer-1jhl)
 - [The 3 Laws of TDD: Focus on One Thing at a Time](https://qualitycoding.org/3-laws-tdd/)
 - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)
+- [My "Investment Mindset"](https://blog.pragmaticengineer.com/the-investment-mindset/)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
