@@ -37,3 +37,4 @@
 - [Charles proxy](https://www.charlesproxy.com/)
 - [JetBrains Mono typeface](https://www.jetbrains.com/lp/mono/)
 - [Mermaid](https://mermaid-js.github.io/mermaid/#/)
+- [Big O cheat sheet](https://www.bigocheatsheet.com/)
