@@ -15,9 +15,3 @@
 
 - [`xcodebuild -quiet` option](2021-03-16-xcodebuild-quiet-option.md)
 - [How to know which shared libraries are used in a binary framework](2021-03-18-know-shared-libraries-used-in-binary-framework.md)
-
-## Site inspiration
-
-- https://warchimede.hashnode.dev/
-- https://hybridcattt.com/
-- https://www.jessesquires.com/
