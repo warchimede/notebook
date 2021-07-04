@@ -8,6 +8,7 @@
 - https://haveibeenpwned.com/
 - https://objective-see.com/index.html
 - https://foundation.mozilla.org/en/privacynotincluded/
+- https://coveryourtracks.eff.org/
 
 ## OSINT
 
