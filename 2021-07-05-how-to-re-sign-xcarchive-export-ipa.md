@@ -1,16 +1,33 @@
 # How to re-sign an xcarchive and export to ipa
 
-## Extract `.app` to create `.ipa`
+## Extract `.app` from `.xcarchive`
 ```
-cp ARCHIVE.xcarchive/Products/Applications/APP_NAME.app .
+cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 ```
 
 ## Extract entitlements
-For the app:
+For the app :
 ```
-codesign -d --entitlements :- APP_NAME.app > APP_NAME_ENTITLEMENT.plist
+codesign -d --entitlements :- APP.app > APP_ENTITLEMENT.plist
 ```
-For each extension:
+For each extension :
 ```
-codesign -d --entitlements :- APP_NAME.app/PlugIns/EXTENSION_NAME.appex > EXTENSION_NAME_ENTITLEMENT.plist
+codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENT.plist
 ```
+
+## Remove code signature
+From the app :
+```
+rm -rf APP.app/Frameworks/*/_CodeSignature
+```
+
+From frameworks :
+```
+rm -rf APP.app/Frameworks/*/_CodeSignature
+```
+
+For each extension :
+```
+rm -rf APP.app/PlugIns/*.appex/_CodeSignature
+```
+
