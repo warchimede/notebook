@@ -5,6 +5,17 @@
 cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 ```
 
+## Change the bundle identifier
+For the app :
+```
+/usr/libexec/PlistBuddy APP.app/Info.plist -c "Set :CFBundleIdentifier APP_BUNDLE_ID"
+```
+
+For each extension :
+```
+/usr/libexec/PlistBuddy APP.app/PlugIns/EXTENSION.appex/Info.plist -c "Set :CFBundleIdentifier APP_BUNDLE_ID"
+```
+
 ## Extract entitlements
 For the app :
 ```
@@ -31,3 +42,13 @@ For each extension :
 rm -rf APP.app/PlugIns/*.appex/_CodeSignature
 ```
 
+## Replace provisioning profiles
+For the app :
+```
+cp APP_PROFILE.mobileprovision APP.app/embedded.mobileprovision
+```
+
+For each extension :
+```
+cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
+```
