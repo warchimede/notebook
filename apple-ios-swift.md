@@ -2,6 +2,7 @@
 
 ## Notes
 - [SwiftUI / Combine](2021-02-20-swiftui-combine.md)
+- [How to re-sign an xcarchive and export to ipa](2021-07-05-how-to-re-sign-xcarchive-export-ipa.md)
 - [iOS 14: IDFA and App Tracking Transparency](2021-02-20-idfa-app-tracking-transparency.md)
 - [Which DRM FairPlay Streaming API to use on which version of iOS](2021-02-18-which-fairplay-drm-api.md)
 - [Good iOS Application Architecture](2021-03-05-good-ios-application-architecture.md)
