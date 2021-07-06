@@ -21,6 +21,7 @@ For the app :
 ```
 codesign -d --entitlements :- APP.app > APP_ENTITLEMENTS.plist
 ```
+
 For each extension :
 ```
 codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENTS.plist
@@ -80,6 +81,16 @@ codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements EXTENSION_ENTITL
 Finally, for the app :
 ```
 codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements APP_ENTITLEMENTS.plist APP.app
+```
+
+## Create new IPA
+```
+mkdir output
+mkdir output/Payload
+mv APP.app output/Payload/
+cp -r ARCHIVE.xcarchive/SwiftSupport output/
+cd output
+zip -qr APP.ipa .
 ```
 
 - https://www.practicallogix.com/how-to-re-sign-an-ios-build-without-xcode/
