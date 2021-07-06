@@ -27,7 +27,15 @@ codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITL
 ```
 
 ## Update entitlements data
-
+For the app : 
+```
+/usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
+Set :application-identifier TEAM_ID.APP_BUNDLE_ID
+Set :com.apple.developer.team-identifier TEAM_ID
+Set keychain-access-groups:0 JN44M2PH52.fr.francetv.nve.dlptp
+Save
+Exit
+```
 
 ## Remove code signature
 From the app :
