@@ -33,7 +33,7 @@ For the app :
 /usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
 set :application-identifier TEAM_ID.APP_BUNDLE_ID
 set :com.apple.developer.team-identifier TEAM_ID
-set :keychain-access-groups:0 JN44M2PH52.fr.francetv.nve.dlptp
+set :keychain-access-groups:0 TEAM_ID.APP_BUNDLE_ID
 save
 exit
 ```
