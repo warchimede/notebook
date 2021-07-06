@@ -19,11 +19,11 @@ For each extension :
 ## Extract entitlements
 For the app :
 ```
-codesign -d --entitlements :- APP.app > APP_ENTITLEMENT.plist
+codesign -d --entitlements :- APP.app > APP_ENTITLEMENTS.plist
 ```
 For each extension :
 ```
-codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENT.plist
+codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENTS.plist
 ```
 
 ## Update entitlements data
@@ -36,6 +36,8 @@ set :keychain-access-groups:0 JN44M2PH52.fr.francetv.nve.dlptp
 save
 exit
 ```
+
+Do the same for each extension.
 
 ## Remove code signature
 From the app :
@@ -62,6 +64,22 @@ cp APP_PROFILE.mobileprovision APP.app/embedded.mobileprovision
 For each extension :
 ```
 cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
+```
+
+## Sign everything
+First, the frameworks :
+```
+codesign -f -s "Apple Distribution: CERTIFICATE" APP.app/Frameworks/*
+```
+
+Then, for each extension :
+```
+codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements EXTENSION_ENTITLEMENTS.plist APP.app/PlugIns/EXTENSION.appex
+```
+
+Finally, for the app :
+```
+codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements APP_ENTITLEMENTS.plist APP.app
 ```
 
 - https://www.practicallogix.com/how-to-re-sign-an-ios-build-without-xcode/
