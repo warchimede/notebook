@@ -43,7 +43,7 @@ Do the same for each extension.
 ## Remove code signature
 From the app :
 ```
-rm -rf APP.app/Frameworks/*/_CodeSignature
+rm -rf APP.app/_CodeSignature
 ```
 
 From frameworks :
