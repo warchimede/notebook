@@ -26,6 +26,9 @@ For each extension :
 codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENT.plist
 ```
 
+## Update entitlements data
+
+
 ## Remove code signature
 From the app :
 ```
@@ -52,3 +55,6 @@ For each extension :
 ```
 cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
 ```
+
+- https://www.practicallogix.com/how-to-re-sign-an-ios-build-without-xcode/
+- https://fgimian.github.io/blog/2015/06/27/a-simple-plistbuddy-tutorial/
