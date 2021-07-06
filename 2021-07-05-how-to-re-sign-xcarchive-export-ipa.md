@@ -8,12 +8,12 @@ cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 ## Change the bundle identifier
 For the app :
 ```
-/usr/libexec/PlistBuddy APP.app/Info.plist -c "Set :CFBundleIdentifier APP_BUNDLE_ID"
+/usr/libexec/PlistBuddy APP.app/Info.plist -c "set :CFBundleIdentifier APP_BUNDLE_ID"
 ```
 
 For each extension :
 ```
-/usr/libexec/PlistBuddy APP.app/PlugIns/EXTENSION.appex/Info.plist -c "Set :CFBundleIdentifier APP_BUNDLE_ID"
+/usr/libexec/PlistBuddy APP.app/PlugIns/EXTENSION.appex/Info.plist -c "set :CFBundleIdentifier APP_BUNDLE_ID"
 ```
 
 ## Extract entitlements
@@ -30,11 +30,11 @@ codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITL
 For the app : 
 ```
 /usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
-Set :application-identifier TEAM_ID.APP_BUNDLE_ID
-Set :com.apple.developer.team-identifier TEAM_ID
-Set keychain-access-groups:0 JN44M2PH52.fr.francetv.nve.dlptp
-Save
-Exit
+set :application-identifier TEAM_ID.APP_BUNDLE_ID
+set :com.apple.developer.team-identifier TEAM_ID
+set :keychain-access-groups:0 JN44M2PH52.fr.francetv.nve.dlptp
+save
+exit
 ```
 
 ## Remove code signature
@@ -65,4 +65,3 @@ cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mo
 ```
 
 - https://www.practicallogix.com/how-to-re-sign-an-ios-build-without-xcode/
-- https://fgimian.github.io/blog/2015/06/27/a-simple-plistbuddy-tutorial/
