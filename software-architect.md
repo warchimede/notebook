@@ -38,3 +38,13 @@
 - [JetBrains Mono typeface](https://www.jetbrains.com/lp/mono/)
 - [Mermaid](https://mermaid-js.github.io/mermaid/#/)
 - [Big O cheat sheet](https://www.bigocheatsheet.com/)
+
+## To read
+- https://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/
+- https://google.github.io/eng-practices/review/reviewer/looking-for.html
+- https://mtlynch.io/human-code-reviews-1/
+- https://mtlynch.io/human-code-reviews-2/
+- https://blog.palantir.com/code-review-best-practices-19e02780015f
+- https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/
+- https://dev.to/codemouse92/10-principles-of-a-good-code-review-2eg
+- https://martinfowler.com/articles/on-pair-programming.html

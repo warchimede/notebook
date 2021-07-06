@@ -92,5 +92,3 @@ cp -r ARCHIVE.xcarchive/SwiftSupport output/
 cd output
 zip -qr APP.ipa .
 ```
-
-- https://www.practicallogix.com/how-to-re-sign-an-ios-build-without-xcode/
