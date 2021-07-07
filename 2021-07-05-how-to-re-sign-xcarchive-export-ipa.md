@@ -13,7 +13,7 @@ For the app :
 
 For each extension :
 ```
-/usr/libexec/PlistBuddy APP.app/PlugIns/EXTENSION.appex/Info.plist -c "set :CFBundleIdentifier APP_BUNDLE_ID"
+/usr/libexec/PlistBuddy APP.app/PlugIns/EXTENSION.appex/Info.plist -c "set :CFBundleIdentifier EXTENSION_BUNDLE_ID"
 ```
 
 ## Extract entitlements
@@ -38,7 +38,15 @@ save
 exit
 ```
 
-Do the same for each extension.
+For each extension :
+```
+/usr/libexec/PlistBuddy EXTENSION_ENTITLEMENT.plist
+set :application-identifier TEAM_ID.EXTENSION_BUNDLE_ID
+set :com.apple.developer.team-identifier TEAM_ID
+set :keychain-access-groups:0 TEAM_ID.EXTENSION_BUNDLE_ID
+save
+exit
+```
 
 ## Remove code signature
 From the app :
