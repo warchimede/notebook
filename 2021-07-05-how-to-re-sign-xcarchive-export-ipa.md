@@ -40,18 +40,21 @@ codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITL
 ```
 
 ## 4️⃣ Update entitlements data
-For the app : 
+
+Again, call `PlistBuddy` to the rescue !
+
+> This time, we will use several `PlistBuddy` commands in a row for the entitlements update. Instead of using `-c` to execute one change at a time, we will load the `.plist` with the tool, tell it each task we want it to execute, then `save` the `.plist` and `exit` when we are done with it.
+
 ```no-highlight
+# update app's entitlements
 /usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
 set :application-identifier TEAM_ID.APP_BUNDLE_ID
 set :com.apple.developer.team-identifier TEAM_ID
 set :keychain-access-groups:0 TEAM_ID.APP_BUNDLE_ID
 save
 exit
-```
 
-For each extension :
-```no-highlight
+# and extensions' entitlements accordingly
 /usr/libexec/PlistBuddy EXTENSION_ENTITLEMENT.plist
 set :application-identifier TEAM_ID.EXTENSION_BUNDLE_ID
 set :com.apple.developer.team-identifier TEAM_ID
@@ -60,7 +63,10 @@ save
 exit
 ```
 
-## Remove code signature
+## 5️⃣ Remove code signature
+
+It is now time to destroy the current codesigning by 🔥
+
 From the app :
 ```no-highlight
 rm -rf APP.app/_CodeSignature
