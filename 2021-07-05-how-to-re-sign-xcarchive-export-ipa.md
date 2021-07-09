@@ -6,6 +6,8 @@ I am usually given `.xcarchive`s which bundle identifiers, version numbers and c
 
 Here is a step-by-step guide explaining how I proceed. 🤓
 
+> Suggestions are welcome and greatly appreciated, hit me up on [Twitter](https://twitter.com/warchimede). 🐥
+
 ## 0️⃣ Extract the `.app` from the `.xcarchive`
 
 All the necessary work will be done with or within the `.app`, thus it is easier to create a working directory and extract it there right away:
@@ -29,6 +31,7 @@ Now we need to start updating the app's `Info.plist`, so let's use the right too
 ## 3️⃣ Extract entitlements
 
 Before re-signing the app, we need to update its entitlements.
+
 Let's get these sneaky bastards thanks to `codesign` : ✍️
 
 ```sh
@@ -43,7 +46,7 @@ codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITL
 
 Again, call `PlistBuddy` to the rescue !
 
-> This time, we will use several `PlistBuddy` commands in a row for the entitlements update. Instead of using `-c` to execute one change at a time, we will load the `.plist` with the tool, tell it each task we want it to execute, then `save` the `.plist` and `exit` when we are done with it.
+> This time, we will use several `PlistBuddy` commands in a row for the entitlements update. Instead of using `-c` to execute one change at a time, we will load the `.plist` with the tool, tell it each task we want it to execute, then `save` the `.plist` and `exit` when we are done.
 
 ```sh
 # update app's entitlements
@@ -79,12 +82,13 @@ The last step before signing is to put the proper provisioning profiles in the a
 
 ```sh
 cp APP_PROFILE.mobileprovision APP.app/embedded.mobileprovision
+
 cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
 ```
 
 ## 7️⃣ Sign the `.app`
 
-🚨 Be careful, **respect this exact order** when using `codesign` the re-sign the app :
+🚨 Be careful, **respect this exact order** when using `codesign` to re-sign the app :
 
 ```sh
 # first, frameworks
