@@ -27,17 +27,19 @@ Now we need to start updating the app's `Info.plist`, so let's use the right too
 ```
 
 ## 3️⃣ Extract entitlements
-For the app :
-```no-highlight
-codesign -d --entitlements :- APP.app > APP_ENTITLEMENTS.plist
-```
 
-For each extension :
+Before re-signing the app, we need to update its entitlements.
+Let's get these sneaky bastards thanks to `codesign` ✍️
+
 ```no-highlight
+# app's entitlements
+codesign -d --entitlements :- APP.app > APP_ENTITLEMENTS.plist
+
+# extensions' entitlements
 codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENTS.plist
 ```
 
-## Update entitlements data
+## 4️⃣ Update entitlements data
 For the app : 
 ```no-highlight
 /usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
