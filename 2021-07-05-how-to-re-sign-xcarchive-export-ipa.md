@@ -82,9 +82,9 @@ cp APP_PROFILE.mobileprovision APP.app/embedded.mobileprovision
 cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
 ```
 
-## 7️⃣ Sign everything
+## 7️⃣ Sign the `.app`
 
-🚨 Be careful, respect this exact order when using `codesign` the re-sign the app :
+🚨 Be careful, **respect this exact order** when using `codesign` the re-sign the app :
 
 ```sh
 # first, frameworks
@@ -97,12 +97,24 @@ codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements EXTENSION_ENTITL
 codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements APP_ENTITLEMENTS.plist APP.app
 ```
 
-## Create new IPA
-```
+## 8️⃣ Create the `.ipa` 🎁
+
+Last but not least, make the `.ipa` for your newly signed `.app` :
+
+```sh
+# some scaffolding first
 mkdir output
 mkdir output/Payload
+
+# deliver the payload
 mv APP.app output/Payload/
+
+# 🚨 do not forget to copy the SwiftSupport directory from the xcarchive
 cp -r ARCHIVE.xcarchive/SwiftSupport output/
+
+# wrap everything nicely
 cd output
 zip -qr APP.ipa .
 ```
+
+## 9️⃣ Submit the app for review 🤞🏽
