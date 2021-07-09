@@ -1,35 +1,45 @@
-# How to re-sign an xcarchive and export to ipa
+# How to re-sign an `.xcarchive` and export to `.ipa` for App Store submission
 
-## Extract `.app` from `.xcarchive`
-```
+I often need to submit for review on App Store Connect app projects coming from external contractors.
+
+I am usually given `.xcarchive`s which bundle identifiers, version numbers and codesigning need to be updated. 😅
+
+Here is a step-by-step guide explaining how I proceed. 🤓
+
+## 0️⃣ Extract the `.app` from the `.xcarchive`
+
+All the necessary work will be done with or within the `.app`, thus it is easier to create a working directory and extract it there right away:
+
+```no-highlight
 cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 ```
 
-## Change the bundle identifier
-For the app :
-```
-/usr/libexec/PlistBuddy APP.app/Info.plist -c "set :CFBundleIdentifier APP_BUNDLE_ID"
-```
+## 1️⃣ Update the bundle identifier
 
-For each extension :
-```
+Now we need to start updating the app's `Info.plist`, so let's use the right tool for the job, aka `PlistBuddy` 🔧 :
+
+```no-highlight
+# update the app
+/usr/libexec/PlistBuddy APP.app/Info.plist -c "set :CFBundleIdentifier APP_BUNDLE_ID"
+
+# and each extension accordingly
 /usr/libexec/PlistBuddy APP.app/PlugIns/EXTENSION.appex/Info.plist -c "set :CFBundleIdentifier EXTENSION_BUNDLE_ID"
 ```
 
-## Extract entitlements
+## 3️⃣ Extract entitlements
 For the app :
-```
+```no-highlight
 codesign -d --entitlements :- APP.app > APP_ENTITLEMENTS.plist
 ```
 
 For each extension :
-```
+```no-highlight
 codesign -d --entitlements :- APP.app/PlugIns/EXTENSION.appex > EXTENSION_ENTITLEMENTS.plist
 ```
 
 ## Update entitlements data
 For the app : 
-```
+```no-highlight
 /usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
 set :application-identifier TEAM_ID.APP_BUNDLE_ID
 set :com.apple.developer.team-identifier TEAM_ID
@@ -39,7 +49,7 @@ exit
 ```
 
 For each extension :
-```
+```no-highlight
 /usr/libexec/PlistBuddy EXTENSION_ENTITLEMENT.plist
 set :application-identifier TEAM_ID.EXTENSION_BUNDLE_ID
 set :com.apple.developer.team-identifier TEAM_ID
@@ -50,17 +60,17 @@ exit
 
 ## Remove code signature
 From the app :
-```
+```no-highlight
 rm -rf APP.app/_CodeSignature
 ```
 
 From frameworks :
-```
+```no-highlight
 rm -rf APP.app/Frameworks/*/_CodeSignature
 ```
 
 For each extension :
-```
+```no-highlight
 rm -rf APP.app/PlugIns/*.appex/_CodeSignature
 ```
 
