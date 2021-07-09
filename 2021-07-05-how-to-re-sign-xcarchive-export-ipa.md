@@ -16,7 +16,7 @@ cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 
 ## 1️⃣ Update the bundle identifier
 
-Now we need to start updating the app's `Info.plist`, so let's use the right tool for the job, aka `PlistBuddy` 🔧 :
+Now we need to start updating the app's `Info.plist`, so let's use the right tool for the job, aka `PlistBuddy` : 🔧
 
 ```no-highlight
 # update the app
@@ -29,7 +29,7 @@ Now we need to start updating the app's `Info.plist`, so let's use the right too
 ## 3️⃣ Extract entitlements
 
 Before re-signing the app, we need to update its entitlements.
-Let's get these sneaky bastards thanks to `codesign` ✍️
+Let's get these sneaky bastards thanks to `codesign` : ✍️
 
 ```no-highlight
 # app's entitlements
@@ -65,31 +65,20 @@ exit
 
 ## 5️⃣ Remove code signature
 
-It is now time to destroy the current codesigning by 🔥
+It is time to destroy the current codesigning by fire. 🔥
 
-From the app :
 ```no-highlight
 rm -rf APP.app/_CodeSignature
-```
-
-From frameworks :
-```no-highlight
 rm -rf APP.app/Frameworks/*/_CodeSignature
-```
-
-For each extension :
-```no-highlight
 rm -rf APP.app/PlugIns/*.appex/_CodeSignature
 ```
 
-## Replace provisioning profiles
-For the app :
+## 6️⃣ Replace provisioning profiles
+
+The last step before signing is to put the proper provisioning profiles in the app and its extensions :
+
 ```
 cp APP_PROFILE.mobileprovision APP.app/embedded.mobileprovision
-```
-
-For each extension :
-```
 cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
 ```
 
