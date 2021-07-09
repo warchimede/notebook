@@ -10,7 +10,7 @@ Here is a step-by-step guide explaining how I proceed. 🤓
 
 All the necessary work will be done with or within the `.app`, thus it is easier to create a working directory and extract it there right away:
 
-```no-highlight
+```sh
 cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 ```
 
@@ -18,7 +18,7 @@ cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
 
 Now we need to start updating the app's `Info.plist`, so let's use the right tool for the job, aka `PlistBuddy` : 🔧
 
-```no-highlight
+```sh
 # update the app
 /usr/libexec/PlistBuddy APP.app/Info.plist -c "set :CFBundleIdentifier APP_BUNDLE_ID"
 
@@ -31,7 +31,7 @@ Now we need to start updating the app's `Info.plist`, so let's use the right too
 Before re-signing the app, we need to update its entitlements.
 Let's get these sneaky bastards thanks to `codesign` : ✍️
 
-```no-highlight
+```sh
 # app's entitlements
 codesign -d --entitlements :- APP.app > APP_ENTITLEMENTS.plist
 
@@ -45,7 +45,7 @@ Again, call `PlistBuddy` to the rescue !
 
 > This time, we will use several `PlistBuddy` commands in a row for the entitlements update. Instead of using `-c` to execute one change at a time, we will load the `.plist` with the tool, tell it each task we want it to execute, then `save` the `.plist` and `exit` when we are done with it.
 
-```no-highlight
+```sh
 # update app's entitlements
 /usr/libexec/PlistBuddy APP_ENTITLEMENT.plist
 set :application-identifier TEAM_ID.APP_BUNDLE_ID
@@ -67,7 +67,7 @@ exit
 
 It is time to destroy the current codesigning by fire. 🔥
 
-```no-highlight
+```sh
 rm -rf APP.app/_CodeSignature
 rm -rf APP.app/Frameworks/*/_CodeSignature
 rm -rf APP.app/PlugIns/*.appex/_CodeSignature
@@ -77,24 +77,23 @@ rm -rf APP.app/PlugIns/*.appex/_CodeSignature
 
 The last step before signing is to put the proper provisioning profiles in the app and its extensions :
 
-```
+```sh
 cp APP_PROFILE.mobileprovision APP.app/embedded.mobileprovision
 cp EXTENSION_PROFILE.mobileprovision APP.app/PlugIns/EXTENSION.appex/embedded.mobileprovision
 ```
 
-## Sign everything
-First, the frameworks :
-```
+## 7️⃣ Sign everything
+
+🚨 Be careful, respect this exact order when using `codesign` the re-sign the app :
+
+```sh
+# first, frameworks
 codesign -f -s "Apple Distribution: CERTIFICATE" APP.app/Frameworks/*
-```
 
-Then, for each extension :
-```
+# then, extensions
 codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements EXTENSION_ENTITLEMENTS.plist APP.app/PlugIns/EXTENSION.appex
-```
 
-Finally, for the app :
-```
+# finally, the app
 codesign -f -s "Apple Distribution: CERTIFICATE" --entitlements APP_ENTITLEMENTS.plist APP.app
 ```
 
