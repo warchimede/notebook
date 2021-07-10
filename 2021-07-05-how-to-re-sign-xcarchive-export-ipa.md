@@ -10,7 +10,7 @@ Here is a step-by-step guide explaining how I proceed. 🤓
 
 ## 0️⃣ Extract the `.app` from the `.xcarchive`
 
-All the necessary work will be done with or within the `.app`, thus it is easier to create a working directory and extract it there right away:
+All the necessary work will be done with or within the `.app`, thus it is easier to create a working directory and extract it there right away :
 
 ```sh
 cp -r ARCHIVE.xcarchive/Products/Applications/APP.app .
