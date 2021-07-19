@@ -2,7 +2,6 @@
 
 ## Drafts
 
-- [How to re-sign an xcarchive and export to ipa](2021-07-05-how-to-re-sign-xcarchive-export-ipa.md)
 - [Which DRM FairPlay API to use on which version of iOS](2021-02-18-which-fairplay-drm-api.md)
 - [PMD CPD Xcode](2021-02-18-pmd-cpd-xcode.md)
 - [CI: How to open a terminal and execute a script on startup](2021-02-18-ci-open-terminal-script.md)
@@ -12,5 +11,6 @@
 
 ## Published
 
+- [How to re-sign an xcarchive and export to ipa](2021-07-05-how-to-re-sign-xcarchive-export-ipa.md)
 - [`xcodebuild -quiet` option](2021-03-16-xcodebuild-quiet-option.md)
 - [How to know which shared libraries are used in a binary framework](2021-03-18-know-shared-libraries-used-in-binary-framework.md)
