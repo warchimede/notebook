@@ -1,7 +1,5 @@
 # [Blog](https://warchimede.com/)
 
-## Ideas
-
 ## Drafts
 
 - [How to re-sign an xcarchive and export to ipa](2021-07-05-how-to-re-sign-xcarchive-export-ipa.md)
