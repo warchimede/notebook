@@ -6,7 +6,7 @@
 
 [App Privacy Details - App Store - Apple Developer](https://developer.apple.com/app-store/app-privacy-details/)
 
-[](https://help.apple.com/app-store-connect/#/dev1b4647c5b)
+[App Store Connect Help: Manage app privacy](https://help.apple.com/app-store-connect/#/dev1b4647c5b)
 
 [Apple Developer Documentation](https://developer.apple.com/documentation/apptrackingtransparency/attrackingmanager)
 
