@@ -31,3 +31,5 @@ From [Apple](https://developer.apple.com/app-store/user-privacy-and-data-use/):
 [Dear App Developers: fingerprinting is not a viable workaround to ATT](https://mobiledevmemo.com/dear-app-developers-fingerprinting-is-not-a-viable-workaround-to-att/)
 
 [Apple vous protège-t-il vraiment de la surveillance publicitaire ?](https://www.pixeldetracking.com/fr/apple-protege-surveillance-publicitaire)
+
+[Apple Human Interface Guidelines - Accessing User Data and Resources](https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/accessing-user-data/)
