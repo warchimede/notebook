@@ -1,4 +1,5 @@
 # Reading List Favs ⭐️
+
 - [What's Going on with the Stock Market](https://economixcomix.com/home/stockmarket/)
 - [Procrastination](https://jamesclear.com/procrastination)
 - [How the World Around You Shapes Your Thoughts and Actions](https://jamesclear.com/jonas-salk)
