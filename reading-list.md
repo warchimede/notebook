@@ -1,5 +1,6 @@
 # Reading List Favs ⭐️
 
+- [The Man Enough Podcast | ALOK | The Urgent Need for Compassion](https://www.youtube.com/watch?v=Tq3C9R8HNUQ)
 - [What's Going on with the Stock Market](https://economixcomix.com/home/stockmarket/)
 - [Procrastination](https://jamesclear.com/procrastination)
 - [How the World Around You Shapes Your Thoughts and Actions](https://jamesclear.com/jonas-salk)
