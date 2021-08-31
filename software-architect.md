@@ -29,6 +29,7 @@
 - [The 3 Laws of TDD: Focus on One Thing at a Time](https://qualitycoding.org/3-laws-tdd/)
 - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)
 - [My "Investment Mindset"](https://blog.pragmaticengineer.com/the-investment-mindset/)
+- [The Seniority Roller Coaster](https://blog.pragmaticengineer.com/the-seniority-roller-coaster/)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
