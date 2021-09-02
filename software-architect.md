@@ -30,6 +30,7 @@
 - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)
 - [My "Investment Mindset"](https://blog.pragmaticengineer.com/the-investment-mindset/)
 - [The Seniority Roller Coaster](https://blog.pragmaticengineer.com/the-seniority-roller-coaster/)
+- [The Staff Engineers Archetypes](https://staffeng.com/guides/staff-archetypes)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
