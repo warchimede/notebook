@@ -31,6 +31,7 @@
 - [My "Investment Mindset"](https://blog.pragmaticengineer.com/the-investment-mindset/)
 - [The Seniority Roller Coaster](https://blog.pragmaticengineer.com/the-seniority-roller-coaster/)
 - [The Staff Engineers Archetypes](https://staffeng.com/guides/staff-archetypes)
+- [DevOps Culture](https://martinfowler.com/bliki/DevOpsCulture.html)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
