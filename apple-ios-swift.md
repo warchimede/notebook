@@ -39,6 +39,7 @@
 - [Sourcekit-lsp VSCode extension](https://github.com/apple/sourcekit-lsp)
 - [ControlRoom](https://github.com/twostraws/ControlRoom)
 - [A complete guide for Apple displays](https://www.screensizes.app/)
+- [OSStatus - Look up Apple API errors quickly!](https://www.osstatus.com/)
 
 ## Fragmentation
 - https://www.gosquared.com/global/ios/9/#week
