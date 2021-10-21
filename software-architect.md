@@ -33,6 +33,7 @@
 - [The Staff Engineers Archetypes](https://staffeng.com/guides/staff-archetypes)
 - [DevOps Culture](https://martinfowler.com/bliki/DevOpsCulture.html)
 - [Critical Programming](https://ashfurrow.com/blog/critical-programming/)
+- [What to learn](https://danluu.com/learn-what/)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
