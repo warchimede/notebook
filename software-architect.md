@@ -35,6 +35,7 @@
 - [Critical Programming](https://ashfurrow.com/blog/critical-programming/)
 - [What to learn](https://danluu.com/learn-what/)
 - [There is more to programming than programming languages](https://malisper.me/there-is-more-to-programming-than-programming-languages/)
+- [Choose boring technology](https://mcfunley.com/choose-boring-technology)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
