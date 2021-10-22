@@ -36,6 +36,7 @@
 - [What to learn](https://danluu.com/learn-what/)
 - [There is more to programming than programming languages](https://malisper.me/there-is-more-to-programming-than-programming-languages/)
 - [Choose boring technology](https://mcfunley.com/choose-boring-technology)
+- [Ship small diffs](https://blog.skyliner.io/ship-small-diffs-741308bec0d1)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
