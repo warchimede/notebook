@@ -38,6 +38,7 @@
 - [Choose boring technology](https://mcfunley.com/choose-boring-technology)
 - [Ship small diffs](https://blog.skyliner.io/ship-small-diffs-741308bec0d1)
 - [Learning to build conviction](https://www.benkuhn.net/conviction/)
+- [On bad advice](https://scattered-thoughts.net/writing/on-bad-advice/)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
