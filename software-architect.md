@@ -41,6 +41,7 @@
 - [On bad advice](https://scattered-thoughts.net/writing/on-bad-advice/)
 - [Things unlearned](https://scattered-thoughts.net/writing/things-unlearned/)
 - [Your language sucks, it doesn't matter](https://matklad.github.io/2020/09/13/your-language-sucks.html)
+- [Design pattern: Kitchen sink / Dumping ground](https://matklad.github.io/2021/05/12/design-pattern-dumping-ground.html)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
