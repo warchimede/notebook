@@ -29,6 +29,7 @@
 - [Building static and dynamic Swift libraries using the Swift compiler](https://theswiftdev.com/building-static-and-dynamic-swift-libraries-using-the-swift-compiler/)
 - [Dependency Injection in iOS and Android Apps](https://blog.pragmaticengineer.com/dependency-injection-in-ios-and-android-apps/)
 - [SwiftRocks - Enabling module stability in SPM projects](https://swiftrocks.com/enabling-module-stability-in-swift-package-manager-projects)
+- [DW - What is module stability in Swift and why should you care](https://www.donnywals.com/what-is-module-stability-in-swift-and-why-should-you-care/)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
