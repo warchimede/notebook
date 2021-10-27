@@ -27,7 +27,8 @@
 - [Swift by Sundell - Handling model variants in Swift](https://swiftbysundell.com/articles/handling-model-variants-in-swift/)
 - [objc.io - Swift Tip: Codable Enums](https://www.objc.io/blog/2018/01/23/codable-enums/)
 - [Building static and dynamic Swift libraries using the Swift compiler](https://theswiftdev.com/building-static-and-dynamic-swift-libraries-using-the-swift-compiler/)
-- [Dependency Injection in iOS and Android Apps](https://blog.pragmaticengineer.com/dependency-injection-in-ios-and-android-apps/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+ThePragmaticEngineer+%2528The+Pragmatic+Engineer%2529)
+- [Dependency Injection in iOS and Android Apps](https://blog.pragmaticengineer.com/dependency-injection-in-ios-and-android-apps/)
+- [SwiftRocks - Enabling module stability in SPM projects](https://swiftrocks.com/enabling-module-stability-in-swift-package-manager-projects)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
