@@ -42,7 +42,6 @@
 - [Things unlearned](https://scattered-thoughts.net/writing/things-unlearned/)
 - [Your language sucks, it doesn't matter](https://matklad.github.io/2020/09/13/your-language-sucks.html)
 - [Design pattern: Kitchen sink / Dumping ground](https://matklad.github.io/2021/05/12/design-pattern-dumping-ground.html)
-- [Leave your ego at the door](https://merowing.info/2021/11/leave-your-ego-at-the-door/)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)

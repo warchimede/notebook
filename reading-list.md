@@ -30,3 +30,5 @@
 - [How waiting in line can improve your focus](https://mokacoding.com/blog/how-waiting-in-line-can-improve-your-focus/)
 - [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
 - [Dan Luu - Willingness to look stupid](https://danluu.com/look-stupid/)
+- [Leave your ego at the door](https://merowing.info/2021/11/leave-your-ego-at-the-door/)
+- [Dan Luu - Culture matters](https://danluu.com/culture/)
