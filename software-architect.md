@@ -61,4 +61,3 @@
 - https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/
 - https://dev.to/codemouse92/10-principles-of-a-good-code-review-2eg
 - https://martinfowler.com/articles/on-pair-programming.html
-- https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market/
