@@ -32,3 +32,4 @@
 - [Dan Luu - Willingness to look stupid](https://danluu.com/look-stupid/)
 - [Leave your ego at the door](https://merowing.info/2021/11/leave-your-ego-at-the-door/)
 - [Dan Luu - Culture matters](https://danluu.com/culture/)
+- [Jesse Squires - Users and Privacy](https://www.jessesquires.com/blog/2022/01/14/users-and-privacy/)
