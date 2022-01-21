@@ -31,6 +31,7 @@
 - [SwiftRocks - Enabling module stability in SPM projects](https://swiftrocks.com/enabling-module-stability-in-swift-package-manager-projects)
 - [DW - What is module stability in Swift and why should you care](https://www.donnywals.com/what-is-module-stability-in-swift-and-why-should-you-care/)
 - [Why XCFrameworks Matter](https://www.rightpoint.com/rplabs/2021/01/why-xcframeworks-matter/)
+- [Khanlou - The Coordinator](https://khanlou.com/2015/01/the-coordinator/)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
