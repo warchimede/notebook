@@ -65,4 +65,3 @@
 - https://martinfowler.com/articles/on-pair-programming.html
 - https://www.youtube.com/watch?v=EZD3Scuv02g
 - https://www.youtube.com/watch?v=yTkzNHF6rMs
-- https://www.youtube.com/watch?v=wyABTfR9UTU
