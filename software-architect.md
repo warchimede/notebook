@@ -45,6 +45,7 @@
 - [Khanlou - The Coordinator](https://khanlou.com/2015/01/the-coordinator/)
 - [FP vs OO: Choose Two by Brian Goetz](https://www.youtube.com/watch?v=8GWZE2Y2O9E)
 - [Ruby Conf 12 - Boundaries by Gary Bernhardt](https://www.youtube.com/watch?v=yTkzNHF6rMs)
+- [Matthew Bischoff - Software Paper Cuts](https://matthewbischoff.com/software-paper-cuts/)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
