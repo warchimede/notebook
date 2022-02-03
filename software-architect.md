@@ -44,6 +44,7 @@
 - [Design pattern: Kitchen sink / Dumping ground](https://matklad.github.io/2021/05/12/design-pattern-dumping-ground.html)
 - [Khanlou - The Coordinator](https://khanlou.com/2015/01/the-coordinator/)
 - [FP vs OO: Choose Two by Brian Goetz](https://www.youtube.com/watch?v=8GWZE2Y2O9E)
+- [Ruby Conf 12 - Boundaries by Gary Bernhardt](https://www.youtube.com/watch?v=yTkzNHF6rMs)
 
 ## Tools
 - [Hyperdeck](https://hyperdeck.io/)
@@ -64,4 +65,3 @@
 - https://dev.to/codemouse92/10-principles-of-a-good-code-review-2eg
 - https://martinfowler.com/articles/on-pair-programming.html
 - https://www.youtube.com/watch?v=EZD3Scuv02g
-- https://www.youtube.com/watch?v=yTkzNHF6rMs
