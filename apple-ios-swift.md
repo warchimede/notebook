@@ -32,6 +32,7 @@
 - [DW - What is module stability in Swift and why should you care](https://www.donnywals.com/what-is-module-stability-in-swift-and-why-should-you-care/)
 - [Why XCFrameworks Matter](https://www.rightpoint.com/rplabs/2021/01/why-xcframeworks-matter/)
 - [Matrejek - Running Kotlin/Native unit tests on iOS Simulator](https://matrejek.eu/posts/running-kotlin-tests/)
+- [Apple tv setup with Charles Proxy](https://www.willowtreeapps.com/craft/a-how-to-guide-for-apple-tv-setup-with-charles-proxy)
 
 ## Tools
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
